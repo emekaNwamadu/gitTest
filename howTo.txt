@@ -3,7 +3,7 @@
 echo "# gitTest" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
+git commit -m "first commit" 
 git branch -M main
 git remote add origin https://github.com/emekaNwamadu/gitTest.git
 git push -u origin main
@@ -15,3 +15,9 @@ git push -u origin main
 git remote add origin https://github.com/emekaNwamadu/gitTest.git
 git branch -M main
 git push -u origin main
+
+
+git commit -m "first commit" --amend :- To prevent new commits: use previous
+git reset . is the opp of git add .
+
+Super simple 19min Git and GitHub - 0 Experience to Professional in 1 Tutorial (Part 1)
